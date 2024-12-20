@@ -6,6 +6,7 @@
 
 TARGET_IS_VAB := true
 TARGET_IS_TABLET := true
+TARGET_IS_WIFI-ONLY := false
 
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
@@ -19,8 +20,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2880
-TARGET_SCREEN_WIDTH := 1800
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1600
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -54,4 +55,4 @@ PRODUCT_PACKAGES += \
     TargetWifiOverlay
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/pipa/pipa-vendor.mk)
+$(call inherit-product, vendor/xiaomi/enuma/enuma-vendor.mk)

@@ -6,4 +6,4 @@
 
 on boot
     # WiFi country code
-    setprop ro.boot.wificountrycode US
+    setprop ro.boot.wificountrycode 00
