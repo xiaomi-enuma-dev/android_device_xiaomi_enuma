@@ -22,7 +22,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_enuma
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_enuma
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/enuma.config
+TARGET_KERNEL_CONFIG := enuma_defconfig
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
