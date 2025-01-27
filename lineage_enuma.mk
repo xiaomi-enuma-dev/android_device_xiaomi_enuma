@@ -25,7 +25,9 @@ PRODUCT_CHARACTERISTICS := nosdcard,tablet
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=enuma \
-    PRIVATE_BUILD_DESC="enuma-user 13 RKQ1.211001.001 V816.0.1.0.TKZCNXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/enuma/enuma:13/RKQ1.211001.001/V816.0.1.0.TKZCNXM:user/release-keys
+    BuildDesc="enuma-user 13 RKQ1.211001.001 V816.0.1.0.TKZCNXM release-keys" \
+    BuildFingerprint=Xiaomi/enuma/enuma:13/RKQ1.211001.001/V816.0.1.0.TKZCNXM:user/release-keys \
+    DeviceName=enuma \
+    DeviceProduct=enuma \
+    SystemDevice=enuma \
+    SystemName=enuma
