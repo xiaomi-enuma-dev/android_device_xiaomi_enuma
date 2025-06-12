@@ -1,4 +1,4 @@
-# Unpinned blobs from enuma-user 13 RKQ1.211001.001 V816.0.1.0.TKZCNXM release-keys
+# Unpinned blobs from enuma-user 13 RKQ1.211001.001 V816.0.3.0.TKZCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
