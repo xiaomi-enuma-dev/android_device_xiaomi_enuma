@@ -18,7 +18,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 320
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_enuma
+#TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_enuma
 
 # Kernel
 TARGET_KERNEL_CONFIG := enuma_defconfig

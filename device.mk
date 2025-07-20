@@ -8,6 +8,8 @@ TARGET_IS_VAB := true
 TARGET_IS_TABLET := true
 TARGET_IS_WIFI-ONLY := false
 
+PRODUCT_SOONG_CONFIG_VAR_VALUE_libinit__vendor_init_lib := init_xiaomi_enuma
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
