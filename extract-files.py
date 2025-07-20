@@ -19,6 +19,8 @@ from extract_utils.main import (
 blob_fixups: blob_fixups_user_type = {
     'vendor/etc/init/init.batterysecret.rc': blob_fixup()
         .regex_replace('.*seclabel u:r:batterysecret:s0\n', ''),
+    'vendor/etc/sensors/config/bu27030_0_back.json': blob_fixup()
+        .regex_replace('ALIOTH', 'ENUMA'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .regex_replace('sensors.elliptic.so\n', '')
         .regex_replace('sensors.touch.so\n', ''),
