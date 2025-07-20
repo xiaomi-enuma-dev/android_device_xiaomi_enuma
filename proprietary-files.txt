@@ -411,7 +411,11 @@ vendor/etc/charger_fstab.qti
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
-# Display calibration
+# Display calibration - from elish V816.0.2.0.TKYCNXM
+product/etc/displayconfig/display_id_19260527152667265.xml:vendor/etc/displayconfig/display_id_19260527152667265.xml
+product/etc/displayconfig/display_id_4630946481717202305.xml:vendor/etc/displayconfig/display_id_4630946481717202305.xml
+product/etc/displayconfig/display_id_4630946545580055169.xml:vendor/etc/displayconfig/display_id_4630946545580055169.xml
+product/etc/display_settings.xml:vendor/etc/display_settings.xml
 vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml
 
